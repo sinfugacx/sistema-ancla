@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sin Fuga — Sistema Ancla | Tu tienda pierde clientes por desorden</title>
+<title>Sistema Ancla — Sin Fuga | Tu tienda pierde clientes por desorden</title>
 <meta name="description" content="Organizamos la atención y seguimiento de tu tienda online en 60 días para que ningún cliente se pierda. Sin CRM, sin equipo gigante, con lo que ya tienes.">
 <style>
 /* ══ TOKENS ══ */
@@ -111,7 +111,8 @@ section{padding:88px 0}
 .dif-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:40px}
 .dif-card{background:var(--W);border-radius:var(--r);padding:24px}
 .dif-icon{font-size:1.6rem;margin-bottom:12px}
-.dif-icon-svg{
+.dif-icon-svg{width:52px;height:52px;background:var(--Rlt);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+.dif-icon-svg-old{
   width:52px;height:52px;
   background:var(--Rlt);
   border-radius:12px;
@@ -121,7 +122,7 @@ section{padding:88px 0}
 .dif-card h3{margin-bottom:8px;color:var(--B)}
 .dif-card p{font-size:.88rem}
 .dif-vs{background:var(--B);border-radius:var(--r);padding:28px;margin-top:20px}
-.dif-vs-grid{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center}
+.dif-vs-grid{display:grid;grid-template-columns:1fr 56px 1fr;gap:16px;align-items:center}
 .dif-col-title{font-family:'Arial',sans-serif;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:16px}
 .dif-col-left .dif-col-title{color:var(--Glt)}
 .dif-col-right .dif-col-title{color:var(--R)}
@@ -217,6 +218,7 @@ footer a{color:var(--R)}
   .dif-grid{grid-template-columns:1fr}
   .dif-vs-grid{grid-template-columns:1fr}
   .dif-sep{display:none}
+  .dif-vs-grid{grid-template-columns:1fr 1px 1fr}
   .stats-grid{grid-template-columns:1fr;gap:28px}
   .stat{border-right:none;border-bottom:1px solid var(--R);padding-bottom:24px}
   .stat:last-child{border-bottom:none;padding-bottom:0}
@@ -228,7 +230,7 @@ footer a{color:var(--R)}
   .hero-ctas{flex-direction:column;align-items:flex-start}
   .cta-final-btns{flex-direction:column;align-items:center}
   .topbar-cta{display:none}
-  .dif-col-left{display:none}
+  .dif-col-left{display:block}
 }
 </style>
 </head>
@@ -252,10 +254,10 @@ footer a{color:var(--R)}
       </h1>
       <p class="hero-desc">
         Organizamos la atención y seguimiento de tu tienda online en 60 días
-        para que ningún cliente se pierda | sin CRM, sin equipo gigante,
+        para que ningún cliente se pierda — sin CRM, sin equipo gigante,
         con lo que ya tienes.
       </p>
-      <p class="hero-sub sans">Más de 3 de cada 5 tiendas online pierden clientes por falta de sistema, no por falta de producto.</p>
+      <p class="hero-sub sans">Más de 3 de cada 5 tiendas online pierden clientes por falta de sistema — no por falta de producto.</p>
       <div class="hero-chips">
         <span class="chip"><b>60 días</b> · 4 fases</span>
         <span class="chip">Sin CRM · Sin equipo gigante</span>
@@ -299,7 +301,7 @@ footer a{color:var(--R)}
     <div class="costo-bar fade">
       <div class="costo-icon">📊</div>
       <div class="costo-text sans">
-        <b>Lo que eso cuesta en números reales:</b> si recibes 10 conversaciones por semana, cierras el 30% y tu ticket promedio es $150.000 COP estás perdiendo hasta <b>$4.200.000 COP al mes</b> en conversaciones sin seguimiento. El desorden no es invisible. Tiene un precio.
+        <b>Lo que eso cuesta en números reales:</b> si recibes 10 conversaciones por semana, cierras el 30% y tu ticket promedio es $150.000 COP — estás perdiendo hasta <b>$4.200.000 COP al mes</b> en conversaciones sin seguimiento. El desorden no es invisible. Tiene un precio.
       </div>
     </div>
   </div>
@@ -339,18 +341,18 @@ footer a{color:var(--R)}
     <div class="pq-grid fade">
       <div class="pq-si">
         <div class="pq-title">✓ Sí es para ti si...</div>
-        <div class="pq-item"><span class="pq-dot-si">→</span>Tienes una tienda online activa con clientes entrando cada semana.</div>
-        <div class="pq-item"><span class="pq-dot-si">→</span>Tienes al menos 1 persona de apoyo en tu equipo.</div>
-        <div class="pq-item"><span class="pq-dot-si">→</span>Usas WhatsApp para atender clientes o estás dispuesta a hacerlo.</div>
-        <div class="pq-item"><span class="pq-dot-si">→</span>Sabes que el problema no es el producto, es lo que pasa después de la primera compra.</div>
-        <div class="pq-item"><span class="pq-dot-si">→</span>Quieres un sistema que funcione sin que tú estés en todo.</div>
+        <div class="pq-item"><span class="pq-dot-si">→</span>Tienes una tienda online activa con clientes entrando cada semana</div>
+        <div class="pq-item"><span class="pq-dot-si">→</span>Tienes al menos 1 persona de apoyo en tu equipo</div>
+        <div class="pq-item"><span class="pq-dot-si">→</span>Usas WhatsApp para atender clientes o estás dispuesta a hacerlo</div>
+        <div class="pq-item"><span class="pq-dot-si">→</span>Sabes que el problema no es el producto — es lo que pasa después de la primera compra</div>
+        <div class="pq-item"><span class="pq-dot-si">→</span>Quieres un sistema que funcione sin que tú estés en todo</div>
       </div>
       <div class="pq-no">
         <div class="pq-title">✗ No es para ti si...</div>
-        <div class="pq-item"><span class="pq-dot-no">×</span>Acabas de lanzar tu tienda y aún no tienes clientes activos.</div>
-        <div class="pq-item"><span class="pq-dot-no">×</span>Trabajas completamente sola sin ninguna persona de apoyo.</div>
-        <div class="pq-item"><span class="pq-dot-no">×</span>Buscas resultados inmediatos sin invertir tiempo en el proceso.</div>
-        <div class="pq-item"><span class="pq-dot-no">×</span>Solo quieres más publicidad, sin tocar la estructura interna.</div>
+        <div class="pq-item"><span class="pq-dot-no">×</span>Acabas de lanzar tu tienda y aún no tienes clientes activos</div>
+        <div class="pq-item"><span class="pq-dot-no">×</span>Trabajas completamente sola sin ninguna persona de apoyo</div>
+        <div class="pq-item"><span class="pq-dot-no">×</span>Buscas resultados inmediatos sin invertir tiempo en el proceso</div>
+        <div class="pq-item"><span class="pq-dot-no">×</span>Solo quieres más publicidad — sin tocar la estructura interna</div>
       </div>
     </div>
   </div>
@@ -380,8 +382,8 @@ footer a{color:var(--R)}
       <div class="fase">
         <span class="fase-num">FASE 03</span>
         <h3>Instalación</h3>
-        <p>Lo configuramos en vivo, no te dejamos un manual sin explicar. WhatsApp Business configurado, plantillas escritas con la voz de tu marca, equipo participando desde el inicio.</p>
-        <div class="fase-entregable sans"><b>Entregable:</b> Kit de Comunicación · plantillas por momento del cliente · sistema optimizado</div>
+        <p>Lo configuramos en vivo — no te dejamos un manual sin explicar. WhatsApp Business configurado, plantillas escritas con la voz de tu marca, equipo participando desde el inicio.</p>
+        <div class="fase-entregable sans"><b>Entregable:</b> Kit de Comunicación · plantillas por momento del journey · sistema optimizado</div>
       </div>
       <div class="fase">
         <span class="fase-num">FASE 04</span>
@@ -390,7 +392,7 @@ footer a{color:var(--R)}
         <div class="fase-entregable sans"><b>Entregable:</b> Reporte de Activación + Manual del Negocio Sellado + video de uso</div>
       </div>
     </div>
-    <p class="proceso-nota sans">Al día 60 tu tienda queda sellada sin depender de tu memoria.</p>
+    <p class="proceso-nota sans">Al día 60 tu tienda queda sellada — sin depender de tu memoria.</p>
   </div>
 </section>
 
@@ -404,28 +406,59 @@ footer a{color:var(--R)}
     </div>
     <div class="dif-grid fade">
       <div class="dif-card">
-        <div class="dif-icon">🔍</div>
+        <div class="dif-icon-svg">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <circle cx="11" cy="11" r="7" stroke="#8B1A2F" stroke-width="2"/>
+            <path d="M16.5 16.5L21 21" stroke="#8B1A2F" stroke-width="2" stroke-linecap="round"/>
+            <path d="M11 8v3l2 2" stroke="#8B1A2F" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
         <h3>Diagnóstico real con tus datos</h3>
         <p>No usamos plantillas genéricas. Revisamos tus conversaciones reales y calculamos el costo exacto de tus fugas en pesos colombianos.</p>
       </div>
       <div class="dif-card">
-        <div class="dif-icon">🤝</div>
+        <div class="dif-icon-svg">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#8B1A2F" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="9" cy="7" r="4" stroke="#8B1A2F" stroke-width="2"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#8B1A2F" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
         <h3>Lo instalamos contigo</h3>
-        <p>No te mandamos un PDF y nos vamos. Configuramos en vivo con tu equipo presente para que lo adopten de verdad , no en teoría.</p>
+        <p>No te mandamos un PDF y nos vamos. Configuramos en vivo con tu equipo presente para que lo adopten de verdad, no en teoría.</p>
       </div>
       <div class="dif-card">
-        <div class="dif-icon">📋</div>
+        <div class="dif-icon-svg">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#8B1A2F" stroke-width="2" stroke-linecap="round"/>
+            <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke="#8B1A2F" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
         <h3>Te dejamos todo documentado</h3>
         <p>Al finalizar tienes un manual y un video explicativo. El sistema funciona sin nosotros. Esa es la prueba de que funcionó.</p>
       </div>
     </div>
-          <div class="dif-col-left">
+    <div class="dif-vs fade">
+      <div class="dif-vs-grid">
+        <div class="dif-col-left">
           <div class="dif-col-title sans">Sin el Sistema Ancla</div>
           <div class="dif-item"><span>✗</span>El equipo improvisa cada conversación</div>
           <div class="dif-item"><span>✗</span>Los clientes quedan sin seguimiento</div>
           <div class="dif-item"><span>✗</span>El negocio depende de tu memoria</div>
           <div class="dif-item"><span>✗</span>Cada semana se escapan ventas</div>
           <div class="dif-item"><span>✗</span>Inviertes en pauta sin retener</div>
+        </div>
+        <div style="
+          display:flex;
+          align-items:stretch;
+          justify-content:center;
+          width:100%;
+        ">
+          <div style="
+            width:1px;
+            background:rgba(255,255,255,.2);
+            margin:0 auto;
+          "></div>
         </div>
         <div class="dif-col-right">
           <div class="dif-col-title sans">Con el Sistema Ancla</div>
@@ -450,15 +483,15 @@ footer a{color:var(--R)}
         <div class="g-item">
           <span class="g-num">GARANTÍA 1</span>
           <h3>Si no hay fugas reales</h3>
-          <p>Si en la Fase 1 no encontramos fugas reales y medibles en tu negocio, devolvemos el primer pago completo. Sin preguntas.</p>
+          <p>Si en la Fase 1 no encontramos fugas reales y medibles en tu negocio — devolvemos el primer pago completo. Sin preguntas.</p>
         </div>
         <div class="g-item">
           <span class="g-num">GARANTÍA 2</span>
           <h3>Si el sistema no funciona</h3>
-          <p>Si al día 60 el sistema no está funcionando solo con tu equipo, seguimos trabajando sin costo adicional hasta que funcione.</p>
+          <p>Si al día 60 el sistema no está funcionando solo con tu equipo — seguimos trabajando sin costo adicional hasta que funcione.</p>
         </div>
       </div>
-      <p class="garantia-nota sans">Condiciones detalladas disponibles al confirmar tu espacio. No porque sean complicadas, sino porque son específicas y queremos que las conozcas bien.</p>
+      <p class="garantia-nota sans">Condiciones detalladas disponibles al confirmar tu espacio. No porque sean complicadas — sino porque son específicas y queremos que las conozcas bien.</p>
     </div>
   </div>
 </section>
@@ -505,7 +538,7 @@ footer a{color:var(--R)}
             <div class="incluye-item sans"><span class="incluye-check">✓</span>Manual del Negocio Sellado + video de uso en Loom</div>
             <div class="incluye-item sans"><span class="incluye-check">✓</span>Garantía doble</div>
           </div>
-          <p class="espacios-badge">⏳ Quedan pocos espacios disponibles | Oferta limitada</p>
+          <p class="espacios-badge">⏳ Quedan 3 espacios disponibles — oferta limitada</p>
           <a href="#califica" class="btn btn-primary" style="width:100%;justify-content:center">
             Verificar si califico →
           </a>
@@ -522,7 +555,7 @@ footer a{color:var(--R)}
     <div class="sec-head fade" style="text-align:center;max-width:520px;margin:0 auto 40px">
       <span class="label">El primer paso</span>
       <h2>¿Tu tienda califica<br>para el Sistema Ancla?</h2>
-      <p>Responde 10 preguntas toma menos de 10 minutos. Si calificas, recibirás un mensaje de correo para agendar tu diagnóstico gratuito. Si no calificas aún, te decimos exactamente qué necesitas primero.</p>
+      <p>Responde 5 preguntas — toma menos de 10 minutos. Si calificas, recibirás un mensaje de WhatsApp para agendar tu diagnóstico gratuito. Si no calificas aún, te decimos exactamente qué necesitas primero.</p>
     </div>
 
     <div class="califica-form-wrap fade">
@@ -588,8 +621,7 @@ footer a{color:var(--R)}
   <div class="wrap" style="position:relative;z-index:1">
     <span class="label">La decisión</span>
     <h2 class="fade">Tu tienda puede seguir<br>perdiendo clientes por desorden.</h2>
-    <p class="fade">O puede quedar sellada en 60 días.<br> 
-| Oferta limitada.</p>
+    <p class="fade">O puede quedar sellada en 60 días.<br>Quedan 3 espacios — oferta limitada.</p>
     <div class="cta-final-btns fade">
       <a href="#califica" class="btn btn-blanco">
         Verificar si califico →
